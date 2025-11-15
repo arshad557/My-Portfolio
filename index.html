@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arshad Kureshi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header id="hero">
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <img src="profile.jpg" alt="Arshad Kureshi" class="profile-pic">
+            <h1>Arshad Kureshi</h1>
+            <p id="typing-text"></p>
+            <a href="https://www.linkedin.com/in/arshad-kureshi-26853b252" target="_blank" class="btn">View LinkedIn</a>
+        </div>
+    </header>
+
+    <section id="skills">
+        <h2>Top Skills</h2>
+        <div class="skills-grid">
+            <div class="skill" data-count="95">
+                <i class="fas fa-chart-line"></i>
+                <span>Analytical Skills</span>
+                <div class="progress-bar"><div class="progress"></div></div>
+            </div>
+            <div class="skill" data-count="90">
+                <i class="fab fa-java"></i>
+                <span>Java Development</span>
+                <div class="progress-bar"><div class="progress"></div></div>
+            </div>
+            <div class="skill" data-count="85">
+                <i class="fas fa-calculator"></i>
+                <span>Quantitative Analytics</span>
+                <div class="progress-bar"><div class="progress"></div></div>
+            </div>
+            <div class="skill" data-count="80">
+                <i class="fas fa-database"></i>
+                <span>MongoDB</span>
+                <div class="progress-bar"><div class="progress"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Data Specialist at Deloitte (via Forage)</h3>
+                <p>July 2025 </p>
+                <ul>
+                    <li>Completed a Deloitte job simulation involving data analysis and forensic technology.</li>
+                    <li>Created a data dashboard using Tableau.</li>
+                    <li>Used Excel to classify data and draw business conclusions.</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <h3>Artificial Intelligence Engineer at GWING Software Technologies (Remote)</h3>
+                <p>June 2025 </p>
+                <ul>
+                    <li>Contributed to real-time AI projects under professional supervision.</li>
+                    <li>Demonstrated consistent dedication, technical involvement, and collaborative teamwork.</li>
+                    <li>Gained hands-on experience in AI-based project design and implementation.</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <h3>Java Specialist at CODTECH IT SOLUTIONS, Hyderabad</h3>
+                <p>January 2025 </p>
+                <ul>
+                    <li>Completed a one-month internship focused on core Java development principles and practical implementation.</li>
+                    <li>Gained hands-on experience in Java programming, object-oriented design, and application development.</li>
+                    <li>Participated in real-time coding tasks and received mentorship from experienced software developers.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education & Certifications</h2>
+        <div class="edu-grid">
+            <div class="edu-item">
+                <h3>Certification: Data Analytics</h3>
+                <p>From Deloitte</p>
+                <p>Completed</p>
+            </div>
+            <div class="edu-item">
+                <h3>Bachelor of Engineering, E&TC</h3>
+                <p>Modern Education Society's College of Engineering, Pune</p>
+                <p>November 2022 - June 2026</p>
+            </div>
+            <div class="edu-item">
+                <h3>Certification: MongoDB Basics for Students</h3>
+                <p>Completed</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Arshad Kureshi. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
